@@ -1,0 +1,205 @@
+/* CSS Document */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;900&display=swap');
+@font-face { 
+src:url("../font/Designors VH/1314-hictDesignors.ttf");
+	font-family: Designors;
+}
+.header{background-color: rgba(0,0,0);
+}
+.logo img{
+	height: 100px; 
+}
+.nav a {font-family: 'Roboto', sans-serif;
+	color: #FFFFFF;
+	text-decoration: none;
+	font-size: 15px;
+	margin: 20px;
+	font-weight: 900;
+}
+.nav ul {
+	list-style: none;
+}
+.nav li {
+ list-style: none;
+}
+.nav ul li a:hover {
+	border-bottom: 3px solid #FFFFFF;
+	color: #D8D2D2;
+}
+.video{ width: 100%;
+	background-position: center;
+}
+/*header*/
+.feature {
+    overflow: hidden;
+    height: 100%;
+}
+
+.setion1 {
+	font-family: 'Roboto', sans-serif;
+    background: rgba(0,0,0,1.00);
+    padding: 100px;
+    background-attachment: fixed;
+}
+.title {
+	font-family: 'Roboto', sans-serif;
+	color: #F9E8A6;
+	font-size: 30px;
+	letter-spacing: 10px;
+	font-weight: 900;
+}
+.image {
+    width: 100%;
+    transition: 0.5s all ease-in-out;
+}
+
+.event:hover .image {
+    transform: scale(1.3);
+}
+
+.event {
+    cursor: pointer;
+    padding: 12px;
+    opacity: 0.8;
+}
+
+.event-content {
+    	color: #F9E8A6;
+    margin-bottom: 40px;
+    margin-top: 10px;
+}
+
+.event-info a {
+    color: rgb(255, 184, 4);
+    text-decoration: none;
+}
+.xem-them a{ margin-bottom: 10px;
+text-decoration: none;
+}
+.xem-them h {
+	font-size: 20px;
+	color: #F9E8A6;
+	font-family: 'Roboto', sans-serif;
+}
+.xem-them ion-icon{
+	text-decoration: none;
+	font-size: 20px;
+	color: #F9E8A6;
+}
+.xem-them h:hover {
+	border-bottom: 3px solid #F9E8A6;
+}
+/*setion1*/
+.setion2{
+	background: url("../img/yan.jpg");
+	width: 100%;
+	
+}
+.container .tam-diem-tuong {
+	color:#F9E8A6;
+	padding:35px;
+	font-family: "Designors";
+	background: rgba(62,62,62,0.63);
+	width: 545px;
+	margin-top: 200px;
+}
+.tam-diem-tuong h {
+	font-size: 90px;
+	font-weight: 900;
+		margin-top: 300px;
+}
+.tam-diem-tuong p{
+	font-size: 50px;
+	font-family: "Designors";
+	color:#F9E8A6;
+}
+.tuong-video video{
+	width: 548px;
+	margin-top: 30px;
+	padding: 80px 0;
+	margin-left: 10px;
+}
+/*setion2*/
+.setion3 {
+	background: url("../img/background setion3-1.jpg");
+	width: 100%;
+	font-family: 'Roboto', sans-serif;
+}
+h1 {font-family: 'Roboto', sans-serif;
+	color: #F9E8A6;
+	font-size: 30px;
+	font-weight: 900;
+	letter-spacing: 5px;
+		text-align: center;
+	padding: 30px 0;
+}
+.yeh {
+	position: relative;
+	display: flex;
+}
+.ya img{
+	border: 1px solid #FFC968;
+	width: 200px;
+	margin-left: 50px;
+}
+.gif  {
+	position: absolute;
+	display: none;
+}
+.gif video{
+	border: 1px solid #FFC968;
+	width: 200px;
+	margin-left: 50px;
+}
+.yeh:hover .gif{
+	display: flex;
+}
+.yeh-el:hover .gif-el{
+	display: flex;
+}
+.setion4{
+	background: #000000;
+}
+.img-chess {
+	width: 400px;
+}
+.ahh video{
+width: 400px;
+}
+ p{
+	color: white;
+		padding: 30px 0;
+	font-family: 'Roboto', sans-serif;
+	 letter-spacing: 1px;
+}
+/*footer*/
+.footer{
+	background: #000000;
+	height: 700px;
+	padding: 150px;
+}
+.footer ion-icon { 
+	color: #FFFFFF;
+    font-size: 25px;
+	padding: 5px;
+	margin: 20px;
+}
+.logo-garena img {
+	height: 80px;
+	margin: 20px;
+}
+.footer ion-icon:hover {
+	background: #6B6B6B;
+ border-radius: 10px;
+}
+.text{font-family: 'Roboto', sans-serif;
+	font-size: 14px;
+	color:#FFFFFF;
+	text-align: center;
+	margin-top: 20px;
+	line-height: 25px;
+} 
+.logo-180 img {
+	height: 100px;
+	padding: 20px 0;
+}
